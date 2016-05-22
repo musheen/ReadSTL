@@ -1,6 +1,5 @@
 PROGRAM readSTL
 
-
 IMPLICIT NONE
 
 !*************************************************************************************!
@@ -14,7 +13,6 @@ INTEGER*2 padding
 INTEGER*4 ntri,iunit,nSurfNode,k,i,n,p,kk,share,nSurfElem
 REAL*4,ALLOCATABLE,DIMENSION(:,:) :: normals,triangles,nodesT
 INTEGER iargc
-
 
 !*************************************************************************************!
 ! Import STL Data
@@ -103,7 +101,6 @@ DEALLOCATE(nodesT)
 DEALLOCATE(triangles)
 DEALLOCATE(normals)
 
-
 !*************************************************************************************!
 !
 ! Program End
@@ -111,5 +108,3 @@ DEALLOCATE(normals)
 !*************************************************************************************!
 
 END PROGRAM readSTL
-
-
