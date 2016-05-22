@@ -7,9 +7,7 @@ IMPLICIT NONE
 ! Set Data
 !*************************************************************************************!
 
-REAL,ALLOCATABLE,DIMENSION(:,:) :: centroid,surfX
-CHARACTER(LEN=1) :: lf=char(10)
-CHARACTER(LEN=1024) :: extent,origin,spacing,coffset
+REAL,ALLOCATABLE,DIMENSION(:,:) :: surfX
 INTEGER*4,ALLOCATABLE,DIMENSION(:,:) :: surfElem
 CHARACTER header*80,filename*80
 INTEGER*2 padding
